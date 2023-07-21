@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .logo{
+    color: orangered;
+}
+.header{
+display:flex;
+margin: 0px;
+justify-content:space-between ;
+position: sticky;
+top: 0px;
+background-color: black;
+background-image: url(/image/terrace-6969360_1280.jpg);
+object-fit: cover;
+}
+.restaurant{
+    display: flex;
+    justify-self: center;
+}
+.img1{
+width: 50px;
+height: 50px;
+border-radius: 5px;
+background-color: orangered;
+}
+.book{
+color: white;
+background-color: rgba(255, 68, 0, 0.992);
+}
+.book:hover{
+    color: black;
+}
+.taskbar{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 10px;
+    align-items: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: scale(1.04);
+}
+a:hover{
+    color: rgb(235, 9, 39);
+    list-style: none;
+}
+    i{
+        color: coral;
+    }
+    .menuheads{
+color: white;
+    }
+    .menu-head{
+        background-color: black;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-bottom: 20px;
+    }
+    .foodmenu{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.popularitems{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: black;
+}
+.coffee{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.pbreakfast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.menulist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.burger{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.slunch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.spoon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.ldiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.cburger{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.chicken-burger{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 500px;
+    
+}
+.burger-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.foodoptions1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.booking{
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    }
+    i{
+        color: hwb(7 4% 5% / 0.914);
+    }
+.reserve1{
+    color: white;
+}
+    .footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: black;
+    position: sticky;
+    bottom: 0px;
+    font-size: large;
+    margin-bottom: 0px;
+}
+.foot{
+    color: white;
+}
+.foots{
+    list-style: none;
+    color: white;
+}
+.foots:hover{
+    color: brown;
+}
+.foot:hover{
+    color: brown;
+}
+.foot-titles{
+    color: orange;
+    font-size:x-large;
+}
+.contact-{
+    list-style: none;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+h3:hover{
+    color: rgb(153, 17, 17);
+}
+</style>
+<body>
+    <div class="header">
+        <div class="restaurant">
+        <img class="img1" src="/image/download.png" alt="">
+        <h2 class="logo">Restaurant</h2> 
+    </div>
+        <div class="taskbar">
+           <a href="/Project1/first.html"> <li>HOME</li></a>
+           <a href="http://127.0.0.1:5500/about.html"> <li>ABOUT</li></a>
+           <a href="/service.html"> <li>SERVICES</li></a>
+            <a href="menu.html"><li>MENU</li></a>
+            <a href="pages.html"><li>PAGES</li></a>
+            <a href="contact.html"><li>CONTACT</li></a>
+           <button class="book"><a href="/Project1/first.html#book-table">BOOK NOW</a></button>
+        </div>
+        </div>
+    <div class="menu-head">
+    <h1 class="menuheads">MENU</h1>
+</div>
+
+<div class="menu">
+    <div class="title">
+<i class="foodmenu"><p>-Food menu- </p></i>
+    <b class="popularitems"><h2>Most Popular Items</h2></b>
+</div>
+<div class="menulist">
+    <button id="breakfast">
+<div id="breakfast" class="pbreakfast">
+<img class="coffee" src="/image/coffee.png" alt="">
+<div class="mtext">
+<p>popular <br>
+<b>breakfast</b>
+</p>
+</div>
+</div>
+</button>
+<button id="lunch">
+<div id="lunch" class="slunch">
+    <img class="burger" src="/image/download (5).png" alt="">
+    <div  class="btext">
+        <p>Special <br>
+            <b>Lunch</b>
+        </p>
+    </div>
+</div>
+</button>
+<button id="diner">
+<div id="diner" class="ldiner">
+    <img class="spoon" src="/image/download.png" alt="">
+    <div class="dtext">
+        <p>Lovely <br>
+        <b>Diner</b>
+        </p>
+    </div>
+</div>
+</button>
+</div>
+</div>
+<div id="foodoption" class="foodoptions1">
+    <div class="forbreakfast-firstline">
+        <div class="chicken-burger">
+            <img class="cburger" src="/image/pexels-cats-coming-406152.jpg" alt="">
+            <div class="burger-text">
+                <div class="first-text">
+                <b>Chicken burger</b>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+               <div class="rate">
+                <p>$250</p>
+            </div>
+            </div>
+        </div>
+        <div class="chicken-burger">
+            <img class="cburger" src="/image/pexels-jan-n-g-u-y-e-n--2664216.jpg" alt="">
+            <div class="burger-text">
+                <div class="first-text">
+                <b>Chicken burger</b>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+               <div class="rate">
+                <p>$250</p>
+            </div>
+            </div>
+        </div>
+        <div class="chicken-burger">
+            <img class="cburger" src="/image/pexels-nerfee-mirandilla-3186654.jpg" alt="">
+            <div class="burger-text">
+                <div class="first-text">
+                <b>Chicken burger</b>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+               <div class="rate">
+                <p>$250</p>
+            </div>
+            </div>
+        </div>
+        <div class="chicken-burger">
+            <img class="cburger" src="/image/pexels-tranmautritam-61180.jpg" alt="">
+            <div class="burger-text">
+                <div class="first-text">
+                <b>Chicken burger</b>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+               <div class="rate">
+                <p>$250</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="forbreakfast-secondline">
+        <div class="chicken-burger">
+            <img class="cburger" src="/image/pexels-jan-n-g-u-y-e-n--2664216.jpg" alt="">
+            <div class="burger-text">
+                <div class="first-text">
+                <b>Chicken burger</b>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+               <div class="rate">
+                <p>$250</p>
+            </div>
+            </div>
+        </div>
+        <div class="chicken-burger">
+            <img class="cburger" src="/image/pexels-tranmautritam-61180.jpg" alt="">
+            <div class="burger-text">
+                <div class="first-text">
+                <b>Chicken burger</b>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+               <div class="rate">
+                <p>$250</p>
+            </div>
+            </div>
+        </div>
+        <div class="chicken-burger">
+            <img class="cburger" src="/image/pexels-nerfee-mirandilla-3186654.jpg" alt="">
+            <div class="burger-text">
+                <div class="first-text">
+                <b>Chicken burger</b>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+               <div class="rate">
+                <p>$250</p>
+            </div>
+            </div>
+        </div>
+        <div class="chicken-burger">
+            <img class="cburger" src="/image/pexels-cats-coming-406152.jpg" alt="">
+            <div class="burger-text">
+                <div class="first-text">
+                <b>Chicken burger</b>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+               <div class="rate">
+                <p>$250</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="company- ">
+        <h3 class="foot-titles">Company-</h3>
+        <li class="foot">about us</li>
+        <li class="foot">Contact us</li>
+        <li class="foot">Reservations</li>
+        <li class="foot">Privacy policy</li>
+        <li class="foot">Terms and conditions</li>
+    </div>
+        <div class="contact-">
+            <h3 class="foot-titles">Contact-</h3>
+            <li class="foots">Sankhamul,new beneshwar,ktm </li>
+             <li class="foots"> 982563764 </li>
+              <li class="foots">abiadhikari082@gmail.com </li>
+              <img class="icon" src="facebook.avif" alt="">
+              <img class="icon" src="Gmail_icon_(2020).svg" alt="">
+            </p>
+           </div>
+           <div class="opening">
+           <h3  class="foot-titles">Opening-</h3>
+            <li class="foots">Monday-saturday </li>
+           <li class="foots"> 09AM-09PM </li>
+    <li class="foots">Sunday</li>
+<li class="foots">10AM-08PM</li>
+</p>
+           </div>
+           <div class="newsletters">
+            <h3  class="foot-titles">Newsletters-</h3>
+            <p class="foot">Lorem ipsum dolor sit amet.</p>
+            <label class="foot" for="sigh up"><input type="email" name="email" id="email" placeholder=" your email"></label>
+           </div>
+</div>
+</body>
+</html>

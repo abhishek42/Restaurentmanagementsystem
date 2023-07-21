@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: black;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgb(225, 15, 32);
+    }
+    .front-img{
+        width: 30px;
+        height: 20px;
+        
+    }
+    .front-imgs{
+
+        width: 30px;
+        height: 15px;
+        padding-top: 5px;
+        background-color: blueviolet;
+        padding-bottom: 5px;
+        display: flex;
+        justify-self:center ;
+        align-self: center;
+    }
+    .navbar0{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+
+    }
+    .front-imgs {
+  position: relative;
+  display: inline-block;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: purple;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: white;
+  box-sizing: content-box;
+  text-decoration: none;
+  text-align: start;
+}
+.front-imgs:hover{
+    color: rgb(235, 9, 39);
+}
+.front-imgs:hover .content {
+  display: block;
+}
+    .nav{
+        display: flex;
+        gap: 5px;
+        text-align: center;
+       
+    }
+    .log{
+        color:rgb(98, 0, 255);
+    }
+    
+
+.log-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:slateblue;
+}
+.restau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    
+}
+.text{
+    width: 500px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.text:hover{
+    transform: scale(1.76);
+}
+.search{
+        background-color: purple;
+        width: 35px;
+        height: 40px;
+        border-radius: 5PX;
+    }
+    .boton{
+        background-color: purple;
+        width: 35px;
+        height: 40px;
+        border-radius: 5PX;
+    }
+.input-type{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-self: center;
+}
+.middle-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 100px;
+}
+p{
+    color: white;
+    text-align: center;
+    
+}
+.fb{
+    width: 10px;
+    height: 10px;
+}
+.go-to{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color:purple;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+.start{
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+}
+.second{
+    padding-left: 50px;
+    text-align: start;
+    
+}
+.parag{
+    color: white;
+    padding-left: 50px;
+}
+.explanation{
+    text-align: left;
+}
+.footers{
+    display: grid;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.restaut{
+    display: flex;
+   align-items: center;
+}
+.copy{
+    display: flex;
+}
+.log-imgs{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: orangered;
+}
+.logs{
+    color: orangered;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    row-gap: 10px;
+}
+.icons{
+    display: flex;
+}
+.last-part{
+    font-size: x-small;
+    display: flex;
+    justify-self: start;
+}
+.sigh{
+    color: white;
+}
+</style>
+<body>
+    <div class="navbar0">
+        <div class="nav">
+        <div class="front-imgs"><img class="front-img" src="/image/9372746.png" alt="">
+            <div class="content">
+          <a href="/Project1/first.html">HOME</a>
+          <a href="/about.html">ABOUT</a>
+          <a href="/service.html">SERVICES</a>
+          <a href="/menu.html">MENU</a>
+            </div>
+        </div>
+   <div class="restau">
+    <img class="log-img" src="/image/download.png" alt="">
+    <h2 class="log">RESTAURANT</h2>
+   </div>
+   </div>
+<h2 class="sigh">SIGH IN</h2>
+</div>
+<div class="middle-body">
+    <div class="restau">
+        <img class="log-img" src="/image/download.png" alt="">
+        <h2 class="log">RESTAURANT</h2>
+       </div>
+       <div class="input-type">
+      <input type="text" name="text" class="text" id="text" placeholder="Enter your search">
+      <button class="boton"><img class="search" src="/image/search.png" alt=""></button>
+    </div>
+<p>Restaurant-best place for you and your family</p>
+<p>
+    <img class="fb" src="/image/facebook.avif" alt="">-connect with us on facebook <br> <br>
+   <a class="go-to" href="/Project1/first.html"> <input class="go-to" type="button" value="GO TO HOME PAGE"></a>
+</p>
+<div class="explanation">
+<p class="start">Restauran is the best and most highly qualitative place to ease your hunger</p><br>
+<p class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sed nisi et, mollitia atque consectetur debitis, quos voluptates veniam laudantium adipisci fuga sunt, deserunt minus rem? Eligendi, eum expedita eos repellendus cumque sed temporibus, vel maiores quis autem quod quia eius eaque omnis soluta cum corporis. Facere nobis ab, incidunt, vitae distinctio quaerat ea consequatur non dolorum voluptate nemo quisquam. Eligendi quia recusandae nihil, rem pariatur officiis debitis? Maiores, fugit hic! Laborum pariatur animi qui iure nisi, dolor unde consequatur excepturi mollitia, quod delectus fugit ut ea eligendi rem consequuntur quam, provident velit assumenda vel quibusdam! Est, ipsam at. Illum tempora libero ut beatae vero distinctio ea hic debitis? Repudiandae ullam voluptates minima id ipsam veritatis, aliquam eveniet placeat delectus sequi exercitationem temporibus? Est sed aperiam a ipsa laboriosam tempora earum autem recusandae, optio deleniti aliquam eligendi facilis alias reprehenderit odit debitis voluptatum, soluta rem. Facilis officia alias quae labore. Consequatur, pariatur provident perspiciatis exercitationem voluptate nesciunt iste. Corporis aliquam velit repellat libero debitis facere culpa, voluptatem minima assumenda dignissimos optio tempora ea? Laborum similique dolore voluptatum recusandae maxime reprehenderit vel consequuntur? Dolores quidem dolorum quae, eum magni atque, sint, nostrum deleniti dignissimos natus dolore placeat minima impedit officia inventore.</p><br>
+<h2 class="parag">whar are the qualities</h2><br> 
+<p class="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta doloremque laborum, dolore, aliquid sequi vitae, quae sit numquam obcaecati consectetur possimus officiis labore. Repellendus recusandae sunt cumque qui modi consequuntur distinctio vitae hic. Assumenda repellendus, ipsam voluptatem, amet labore voluptatum delectus maxime eaque magnam magni praesentium. Consequatur soluta magni aperiam, perspiciatis nihil optio architecto nobis repellendus molestias voluptatem atque consequuntur cupiditate sapiente perferendis veniam dicta, tenetur esse aliquid, corporis omnis quia adipisci aliquam! Eos optio inventore illum excepturi, cupiditate doloribus sed maiores rem culpa tempore minima, suscipit vitae tenetur ratione minus natus eum nam reiciendis harum aspernatur ipsum ex debitis molestiae. Maxime, porro non? Cupiditate iure voluptatem rem aliquam, delectus, beatae veritatis nesciunt suscipit soluta labore placeat natus quidem enim nam aut dolorem dolor, doloribus eaque dignissimos deleniti consequuntur! Esse alias facilis fugit consequuntur iste dicta aut qui, unde et velit dignissimos, nam totam ipsum! Quo ratione laboriosam harum rerum, ipsa perspiciatis expedita, error architecto voluptatibus veniam illo exercitationem facilis repudiandae minima facere iste a, unde accusantium? Fuga tempore rem iste. Saepe in veniam doloribus dolorem at tempore? Totam dolorum illum, alias voluptates nostrum laborum obcaecati ratione odio! Hic eveniet esse ipsum iure id totam, delectus maxime sunt enim eaque?</p><br>
+<h2  class="parag">Why is it important</h2><br>
+<p class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda a excepturi, illum laborum eos est sit eaque. Molestias, libero ratione. Iusto dolore, nobis ullam atque et corrupti nemo pariatur illo? Dolore quod labore tenetur repellat quae corporis. Dolor repellendus praesentium tempore ea omnis? Similique assumenda magnam nemo ratione, earum, minus autem consequatur quae reiciendis iste rem, quas qui eveniet eaque? Molestias consequatur iste nam commodi minima! Veniam aperiam doloribus doloremque ipsa. Vitae, voluptas cum expedita ipsa earum iusto autem? Culpa numquam nulla architecto. Nulla, error. Cumque error odio beatae a distinctio est commodi dolor nobis esse necessitatibus? Accusantium molestiae laboriosam quaerat harum temporibus minus mollitia quod placeat expedita consectetur exercitationem, deleniti odio necessitatibus numquam enim recusandae eius modi. Labore, qui atque dicta natus laboriosam vel? Voluptas dolores aliquam fugit hic nobis! Reiciendis dolores distinctio, esse vero possimus labore quia doloribus quidem facere architecto incidunt iure sit a saepe ex, itaque deleniti, quibusdam quas. At, aspernatur eaque! Beatae porro, distinctio, assumenda laboriosam eos reiciendis error ab, rem hic atque magni libero dolorem eum eveniet sunt minus accusantium ullam neque itaque corporis. Omnis, officiis neque facilis ab non iusto earum. Corporis delectus asperiores laborum nam maiores non reiciendis ipsam, doloremque inventore recusandae!</p><br>
+
+</div>
+<a class="go-to" href="/Project1/first.html"> <input class="go-to" type="button" value="GO TO HOME PAGE"></a>
+</div>
+<div class="footers">
+<div class="restaut">
+    <img class="log-imgs" src="/image/download.png" alt="">
+    <h2 class="logs">RESTAURANT</h2>
+   </div>
+   <p class="copy">Copyrigh © Restaurant. All Rights Reserved</p><br>
+   <div class="icons">
+  <a  href="https://www.facebook.com/"> <img class="icon" src="/image/facebook.avif" alt=""></a>
+  <a href="https://www.gmail.com"><img class="icon" src="/image/Gmail_icon_(2020).svg" alt=""></a>
+</div>
+<p class="last-part">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, ratione.
+</p>
+</div>
+</body>
+</html>

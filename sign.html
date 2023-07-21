@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .sign-in {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+        height: 300px;
+
+    }
+
+    .sign {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 300px;
+       gap: 5px;
+    }
+
+    .login-img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .sign-content {
+        position: relative;
+        top: 30px;
+        text-align: start;
+        height: 100%;
+        width: 300px;
+    }
+    h2{
+        text-align: center;
+    }
+    .start-p{
+        text-align: center;
+    }
+    .A{
+        display:flex ;
+        justify-content: space-between;
+
+    }
+    input{
+        width: 100%;    
+        height: 20px;
+    }
+</style>
+
+<body>
+    <div class="sign-in">
+        <div class="sign">
+            
+                <img class="login-img" src="/image/pexels-jan-n-g-u-y-e-n-🍁-2664216.jpg" alt="">
+          
+            <div class="sign-content">
+                <h2>Members login</h2>
+                <p class="start-p">Restaurent-better place for your food</p>
+                <input type="email" id="email" class="email" placeholder="email"><br>
+                    <input type="password" class="password" id="password" placeholder="password">
+                
+                <div class="A">
+                    <p class="remember">
+                        <input type="checkbox">remember
+                    </p>
+                    <p class="forgot">
+                        forgot
+                    </p>
+                </div>
+                <button class="log">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

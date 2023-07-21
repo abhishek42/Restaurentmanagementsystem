@@ -1,0 +1,380 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="first.html">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .logo{
+    color: orangered;
+}
+.header{
+display:flex;
+margin: 0px;
+justify-content:space-between ;
+position: sticky;
+top: 0px;
+background-color: black;
+background-image: url(/image/terrace-6969360_1280.jpg);
+object-fit: cover;
+}
+.restaurant{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.img1{
+width: 50px;
+height: 50px;
+border-radius: 5px;
+background-color: orangered;
+}
+.book{
+color: white;
+background-color: rgba(255, 68, 0, 0.992);
+}
+.book:hover{
+    color: black;
+}
+.taskbar{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 10px;
+    align-items: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: scale(1.04);
+}
+a:hover{
+    color: rgb(235, 9, 39);
+    list-style: none;
+}
+    i{
+        color: coral;
+    }
+    .aboutheads{
+color: white;
+    }
+    .about-head{
+        background-color: black;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-bottom: 20px;
+    }
+    .picandread{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+b{
+    color: black;
+}
+.arrow{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.num{
+    font-size: 40px;
+    align-items: center;
+}
+.experience-cretion{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.creation{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.num{
+    color: rgb(221, 62, 5);
+    font-weight: 600;
+}
+.readmore{
+    background-color: rgba(254, 71, 5, 0.838);
+    color: white;
+}
+.readmore:hover{
+    color: rgba(5, 5, 5, 0.838);;
+}
+.img3{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.img4{
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.img5{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.img6{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.grid-image1{
+    grid-area: I1;
+}
+.grid-image2{
+grid-area: I2;
+
+}
+.grid-image3{
+    grid-area: I3;
+    padding-left: 100px;
+  
+
+}
+.grid-image4{
+    grid-area: I4;
+}
+.second{
+display: grid;
+grid-template-areas: 
+"I1 I2"
+"I3 I4";
+gap: 10px;
+}
+.team-members{
+    text-align: center;
+}
+.chefs-info{
+    display: flex;
+    margin: 40px;
+    gap: 50px;
+    justify-content: center;
+}
+.first-chef{
+    height:250px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px rgba(1, 1,1, 0.2);
+    transition: rgb(120, 6, 6);
+    opacity: 5px;
+}
+.first-chef:hover{
+    color: rgb(153, 17, 17);
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+.chef1{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.chefs-name{
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: black;
+    position: sticky;
+    bottom: 0px;
+    font-size: large;
+    margin-bottom: 0px;
+}
+.foot{
+    color: white;
+}
+.foots{
+    list-style: none;
+    color: white;
+}
+.foots:hover{
+    color: brown;
+}
+.foot:hover{
+    color: brown;
+}
+.foot-titles{
+    color: orange;
+    font-size:x-large;
+}
+.contact-{
+    list-style: none;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+h3:hover{
+    color: rgb(153, 17, 17);
+}
+
+</style>
+<body>
+    <div class="header">
+        <div class="restaurant">
+        <a class="restaurant" href="/home.html"><img class="img1" src="/image/download.png" alt="">
+        <h2 class="logo">Restaurant</h2> 
+    </a>
+    </div>
+        <div class="taskbar">
+           <a href="/Project1/first.html"> <li>HOME</li></a>
+           <a href="http://127.0.0.1:5500/about.html"> <li>ABOUT</li></a>
+           <a href="/service.html"> <li>SERVICES</li></a>
+            <a href="/menu.html"><li>MENU</li></a>
+            <a href="pages.html"><li>PAGES</li></a>
+            <a href="contact.html"><li>CONTACT</li></a>
+           <button class="book"><a href="/Project1/first.html#book-table">BOOK NOW</a></button>
+        </div>
+        </div>
+    <div class="about-head">
+    <h1 class="aboutheads">ABOUT US</h1>
+</div>
+    <div class="picandread">
+        <div class="second">
+            <div class="grid_image1">
+            <img class="img3" src="/image/pexels-cats-coming-406152.jpg" alt="">
+        </div>
+        <div class="grid-image2">
+            <img class="img4" src="/image/pexels-jan-n-g-u-y-e-n--2664216.jpg" alt="">
+        </div>
+        <div class="grid-image3">
+            <img class="img5" src="/image/pexels-nerfee-mirandilla-3186654.jpg" alt="">
+        </div>
+        <div class="grid-image4">
+            <img class="img6" src="/image/pexels-tranmautritam-61180.jpg" alt="">
+        </div>
+        </div>
+        <div class="read">
+        <i><p>about us---</p></i>
+        <b><h2>Welcome To <img class="smalpic" src="download.png" alt="">Restoran</h2></b>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            A temporibus suscipit et nam cumque, facere fugit architecto similique vel rerum! <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+            Architecto ad iste hic! Tempore, facere. Impedit eius obcaecati dolorem eos architecto.
+        </p>
+        <div class="experience-cretion">
+            <div class="arrow">
+            <p class="num">15</p>
+            <div class="experience">
+            <p>Fears of <br>
+                <b>EXPERIWNCE</b>
+            </p>
+          </div>
+        </div>
+        <div class="creation">
+            <p class="num">50</p>
+            <div class="create">
+                <p>Fears of <br>
+                    <b>EXPERIWNCE</b>
+                </p>
+              </div>
+        </div>
+        </div>
+        <button class="readmore">
+            READ MORE
+        </button>
+        </div>
+        </div>
+        
+        <div class="team-members">
+            <i>-Team members-</i>
+            <h2>Our Master Chefs</h2>
+            <div class="chefs-info">
+        <div class="first-chef">
+            <img class="chef1" src="/image/eiliv-aceron-wNQoaYCFcsI-unsplash.jpg" alt="">
+            <b><p class="chefs-name" >Full name <br>
+                Alex Washington <br>
+                <a class="icon" href="https://www.gmail.com"><img class="icon" src="/image/Gmail_icon_(2020).svg" alt=""></a>
+                <a class="icon" href="https://www.facebook.com/"><img class="icon" src="/image/facebook.avif" alt=""></a>
+            </p> </b> 
+            </div>
+            <div class="first-chef">
+                <img class="chef1" src="/image/chef1.jpg" alt="">
+                <b><p class="chefs-name">Full name <br>
+                    Manish Chand <br>
+                    <a class="icon" href="https://www.gmail.com"><img class="icon" src="/image/Gmail_icon_(2020).svg" alt=""></a>
+                    <a class="icon" href="https://www.facebook.com/"><img class="icon" src="/image/facebook.avif" alt=""></a>
+                </p> </b> 
+                </div>
+                <div class="first-chef">
+                    <img class="chef1" src="/image/chef2.jpg" alt="">
+                   <b><p class="chefs-name">Full name <br>
+                        Narish Lamichane <br>
+                        <a class="icon" href="https://www.gmail.com"><img class="icon" src="/image/Gmail_icon_(2020).svg" alt=""></a>
+                        <a class="icon" href="https://www.facebook.com/"><img class="icon" src="/image/facebook.avif" alt=""></a>
+                    </p> </b> 
+                    </div>
+                    <div class="first-chef">
+                        <img class="chef1" src="/image/chef3.jpg" alt="">
+                       <b><p class="chefs-name">Full name <br>
+                            Xavier Chist <br>
+                            <a class="icon" href="https://www.gmail.com"><img class="icon" src="/image/Gmail_icon_(2020).svg" alt=""></a>
+                            <a class="icon" href="httpS://www.facebook.com"><img class="icon" src="/image/facebook.avif" alt=""></a>
+                        </p></b> 
+                        </div>
+                    </div>
+        </div>
+        <div class="footer">
+            <div class="company- ">
+                <h3 class="foot-titles">Company-</h3>
+                <li class="foot">about us</li>
+                <li class="foot">Contact us</li>
+                <li class="foot">Reservations</li>
+                <li class="foot">Privacy policy</li>
+                <li class="foot">Terms and conditions</li>
+            </div>
+                <div class="contact-">
+                    <h3 class="foot-titles">Contact-</h3>
+                    <li class="foots">Sankhamul,new beneshwar,ktm </li>
+                     <li class="foots"> 982563764 </li>
+                      <li class="foots">abiadhikari082@gmail.com </li>
+                      <img class="icon" src="facebook.avif" alt="">
+                      <img class="icon" src="Gmail_icon_(2020).svg" alt="">
+                    </p>
+                   </div>
+                   <div class="opening">
+                   <h3  class="foot-titles">Opening-</h3>
+                    <li class="foots">Monday-saturday </li>
+                   <li class="foots"> 09AM-09PM </li>
+            <li class="foots">Sunday</li>
+        <li class="foots">10AM-08PM</li>
+        </p>
+                   </div>
+                   <div class="newsletters">
+                    <h3  class="foot-titles">Newsletters-</h3>
+                    <p class="foot">Lorem ipsum dolor sit amet.</p>
+                    <label class="foot" for="sigh up"><input type="email" name="email" id="email" placeholder=" your email"></label>
+                   </div>
+        </div>
+</body>
+</html>
